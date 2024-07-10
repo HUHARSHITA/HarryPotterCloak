@@ -2,12 +2,6 @@ import cv2
 import numpy as np
 import time
 
-# #IP address of the phone's camera stream
-# address = "http://192.168.43.190:8080//video"
-
-# #Initialize the video capture with the phone's camera stream
-# video = cv2.VideoCapture(address)
-
 video = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 time.sleep(3)
 
